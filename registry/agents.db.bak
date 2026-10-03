@@ -1,0 +1,4 @@
+security-01|security.analyze|online
+connection-01|connections.observe|online
+dns-01|dns.resolve|online
+memory-01|history.store|online

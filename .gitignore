@@ -1,0 +1,37 @@
+# Runtime
+*.pid
+*.log
+*.tmp
+*.lock
+
+# Runtime data
+data/*
+!data/.gitkeep
+
+# Local state
+.state/
+runtime/
+traces/
+messages/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+
+# Local configuration
+config.local.sh
